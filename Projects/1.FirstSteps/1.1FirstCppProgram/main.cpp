@@ -1,11 +1,7 @@
 #include <iostream>  //this is used to print input output
 
-consteval int get_value(){
-    return 3;
-}
-
-int main(){
-    std::cout << "Hello, World!" << std::endl;  
+int main(){   //main is the starting point of your c++ ; main is the very first thing that will run ; it is the entry point 
+    std::cout << "Hello, World!" << std::endl;  // << std::endl; creates a new line
     return 0;
 }
 
@@ -17,3 +13,17 @@ int main(){
     // Step 3: rooster.exe will be created/updated 
     // Step 4: create new terminal
     // Step 4: write >.\rooster.exe
+
+
+// to further elaborate std::endl; 
+
+    // std::cout << "Number1"; 
+    // std::cout << "Number2";
+    // *run*
+    // Number1Number2
+
+    // std::cout << "Number1" << std::endl;
+    // std::cout << "Number2";
+    // *run*
+    // Number1
+    // Number2
