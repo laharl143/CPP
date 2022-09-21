@@ -16,7 +16,7 @@ int main(){   //main is the starting point of your c++ ; main is the very first 
      Step 4: write >.\rooster.exe
 
 
-// to further elaborate std::endl; 
+   to further elaborate << std::endl ; 
 
      std::cout << "Number1"; 
      std::cout << "Number2";
