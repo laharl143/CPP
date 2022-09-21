@@ -9,7 +9,7 @@ int addNumbers (int first_param, int second_param){
 
 int main(){
 
-    int first_number {3}; //statement   //this is used to store variables
+    int first_number {3}; //statement   //this syntax is used to store integers
     int second_number {7}; // 
 
     std::cout << "First number is: " << first_number << std::endl;  //3
@@ -21,9 +21,21 @@ int main(){
     sum = addNumbers(25,7);
     std::cout << "The sum is: " << sum << std::endl;  //32
 
+    sum = addNumbers(30,54);
+    std::cout << "The sum is: " << sum << std::endl;  //84
+
+    std::cout << "The sum is: " << addNumbers(3,42) << std::endl;  //45
     return 0;
 }
-
+/*
+Final Output:
+First number is: 3
+Second number is: 7
+The sum is: 10
+The sum is: 32
+The sum is: 84
+The sum is: 45
+*/
 
 /*
 Notes:
