@@ -26,3 +26,10 @@
 
 //   Step 1: on the terminal tab, click on "new terminal"
 //   Step 2: write in the terminal > .\rooster.exe
+
+
+
+// How to configure to C++ 20
+//   Step 1: on the view tab, click on "command palette"
+//   Step 2: then click on "c/c++:Edit configurations((UI)"
+//   Step 3: scroll down to the lowest part and choose C++20 
