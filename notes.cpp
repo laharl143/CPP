@@ -33,3 +33,9 @@
 //   Step 1: on the view tab, click on "command palette"
 //   Step 2: then click on "c/c++:Edit configurations((UI)"
 //   Step 3: scroll down to the lowest part and choose C++20 
+
+
+// How to check if all the compilers are ready to use
+//   Step 1: Open terminal
+//   Step 2: type "cl.exe", "g++ --version", "clang++ --version"
+//   Step 3: if no errors, you are good to go
