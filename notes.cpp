@@ -44,9 +44,17 @@ How to check if all the compilers are ready to use
 
 //////////////////////////////////////////
 std::cout       //Printing data to the console(terminal)
+Ex. std::cout << "Hello World!" << std:endl;             //<< means <<------------
+
 std::cin        //Reading data from the terminal
+Ex. std::cout << "What is your name?" << std::endl;
+    std::cin >> name;                                    //>> means ------------>>
+
 std::cerr       //Printing errors to the console
+Ex. std::cout << "std::cerr output: Something went wrong" << std:endl;
+
 std::clog       //Printing log messages to the console
+Ex. std::clog << "std::clog output: This is a log message" << std:endl;
 
 
 
