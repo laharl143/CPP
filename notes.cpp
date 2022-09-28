@@ -72,7 +72,7 @@ Brace initialization:  {}   //using curly braces
 
 #Format: typename variable_name {initializer_value};
 
-    int elephant_count;
+    int elephant_count; //random garbage value
     int lion_count{};   //initializes to 0
     int dog_count{10};    //initializes to 10   
     int cat_count{15};    //initializes to 15
