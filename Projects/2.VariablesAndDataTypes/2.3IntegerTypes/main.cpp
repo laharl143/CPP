@@ -77,6 +77,7 @@ Narrowing conversion : 2
     std::cout << "sizeof truck_count : " << sizeof(truck_count) << std::endl;
 
 /*
+final output:
 Bike count : 2
 Truck count : 7
 Vehicle count : 9
