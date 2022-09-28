@@ -56,6 +56,15 @@ Ex. std::cout << "std::cerr output: Something went wrong" << std:endl;
 std::clog       //Printing log messages to the console
 Ex. std::clog << "std::clog output: This is a log message" << std:endl;
 
+//////////////////////////////////////////
+Number systems:
+
+    int number1 = 15; //decimal
+    int number2 = 017; //octal
+    int number3 = 0x0f; //hexadecimal
+    int number4 = 0b00001111; //binary
+
+
 
 
 

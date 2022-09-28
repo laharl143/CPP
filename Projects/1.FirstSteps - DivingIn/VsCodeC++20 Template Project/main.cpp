@@ -9,3 +9,9 @@ int main(){
     std::cout << "value : " << value << std::endl;
     return 0;
 }
+
+
+/*
+final output: 
+
+*/
