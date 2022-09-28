@@ -65,6 +65,33 @@ Number systems:
     int number4 = 0b00001111; //binary
 
 
+//////////////////////////////////////////
+Decimals and integers:
+
+Brace initialization:  {}   //using curly braces
+
+#Format: typename variable_name {initializer_value};
+
+    int elephant_count;
+    int lion_count{};   //initializes to 0
+    int dog_count{10};    //initializes to 10   
+    int cat_count{15};    //initializes to 15
+    int domesticated_animals { dog_count + cat_count };     //can use expression as initializer 
+
+Functional initialization: ()   //using parentheses
+    int apple_count(5);
+    int orange_count(10);
+    int fruit_count(apple_count + orange_count);
+
+Assignment initialization: =    //using eqauls
+    int bike_count = 2;
+    int truck_count = 7;
+    int vehicle_count = bike_count + truck_count;
+
+    
+
+
+    
 
 
 
