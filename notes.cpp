@@ -88,6 +88,8 @@ Assignment initialization: =    //using eqauls
     int truck_count = 7;
     int vehicle_count = bike_count + truck_count;
 
+//////////////////////////////////////////
+Fractional Numbers
     
 
 
