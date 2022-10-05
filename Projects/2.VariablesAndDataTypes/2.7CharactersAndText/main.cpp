@@ -28,5 +28,13 @@ int main(){
 }
 /*
 final output: 
+a
+r
+r
+o
+w
+
+value : A
+value(int) : 65
 
 */

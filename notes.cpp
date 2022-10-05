@@ -83,18 +83,83 @@ Functional initialization: ()   //using parentheses
     int orange_count(10);
     int fruit_count(apple_count + orange_count);
 
-Assignment initialization: =    //using eqauls
+Assignment initialization: =    //using equals
     int bike_count = 2;
     int truck_count = 7;
     int vehicle_count = bike_count + truck_count;
 
 //////////////////////////////////////////
-Fractional Numbers
+Integer Modifiers
+
+signed int // lets you assign positive and negative integers
+unsigned int // lets you assign only positive integers
+
+//////////////////////////////////////////
+Fractional numbers
+
+-float number1 {1.12345678901234567890f}; // Precision : 7   //f in the ending interprets it is a float
+-double number2 {1.12345678901234567890}; // Precision : 15  //double doesn't need any interpretation at the end
+-long double number3  {1.12345678901234567890L};             //L in the end is for the interpretation of long
     
+sizeof float : 4
+sizeof double : 8
+sizeof long double : 16    
 
+//////////////////////////////////////////
+Boolean
 
+bool red_light {false};
+bool green_light{true};
     
+    if(red_light == true){
+        std::cout << "Stop!" << std::endl;
+    }else{
+        std::cout << "Go through!" << std::endl;
+    }
 
+    if(green_light){
+        std::cout << "The light is green!" << std::endl;
+    }else{
+        std::cout << "The light is NOT green!" << std::endl;
+    }
+sizeof(bool) : 1
 
+std::cout << std::boolalpha;   //this is a special setting to print "true or false"
 
+//////////////////////////////////////////
+Characters and Text
+
+char value = 65 ; // ASCII character code for 'A'
+    std::cout << "value : " << value << std::endl; // A
+    std::cout << "value(int) : " << static_cast<int>(value) << std::endl;       //this is used to (static cast)convert from ASCII character to int
+
+final output: 
+a
+r
+r
+o
+w
+
+value : A
+value(int) : 65
+
+//////////////////////////////////////////
+Auto
+    //auto is used to automatically assign a type (you can hover to a certain variable what type they are)
+	auto var1 {12};     //int
+    auto var2 {13.0};   //double
+    auto var3 {14.0f};  //flout
+    auto var4 {15.0l};  //long
+    auto var5 {'e'};    //char
+
+//////////////////////////////////////////
+Assignment
+    int var1{123};          // Declare and initialize
+    std::cout << "var1 : "  << var1 << std::endl;
+    var1 = 55;              // Assign   ; to assign a new value to a variable
+    std::cout << "var1 : "  << var1 << std::endl;
+
+final output: 
+var1 : 123
+var1 : 55
 */

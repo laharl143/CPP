@@ -123,5 +123,31 @@ sizeof(value2) : 4
 
 /*
 final output: 
-
+value1 : 10
+value2 : -300
+sizeof(value1) : 4
+sizeof(value2) : 4
+Short variable : -32768 , size : 2 bytes
+Short Int : 455 , size : 2 bytes
+Signed short : 122 , size : 2 bytes
+Signed short int :  -456 , size : 2 bytes
+unsigned short int :  456 , size : 2 bytes
+---------------------
+Int variable :  55 , size : 4 bytes
+Signed variable 66 , size : 4 bytes
+Signed int :  77 , size : 4 bytes
+unsigned int :  77 , size : 4 bytes
+---------------------
+Long variable :  88 , size : 4 bytes
+Long int :  33 , size : 4 bytes
+Signed long :  44 , size : 4 bytes
+Signed long int : 44 , size : 4 bytes
+unsigned long int : 44 , size : 4 bytes
+---------------------
+Long long : 888 , size : 8 bytes
+Long long int : 999 , size : 8 bytes
+Signed long long : 444 , size : 8 bytes
+Signed long long int : 1234 , size : 8 bytes
+unsigned long long int : 1234 , size : 8 bytes
+---------------------
 */
