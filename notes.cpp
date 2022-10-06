@@ -192,7 +192,7 @@ Modulus:
 Precedence and Associativity
 -as much as possible use () in your operations to be specific. dont rely too much on the precedence table
 
-
+precedence table (https://en.cppreference.com/w/cpp/language/operator_precedence)
 //////////////////////////////////////////
 Increment and Decrement
 
@@ -229,9 +229,18 @@ value %= 11; //8
 //////////////////////////////////////////
 Relational Operators
 
+int number1 {45};
+int number2 {65};
 
+(number1 < number2)     //true
+(number1 <= number2)    //true
+(number1 > number2)     //false
+(number1 >= number2)    //false
+(number1 == number2)    //false
+(number1 != number2)    //true
 
-
+//////////////////////////////////////////
+Logical Operators
 
 
 

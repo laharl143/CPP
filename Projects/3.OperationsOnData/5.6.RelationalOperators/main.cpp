@@ -3,8 +3,8 @@
 
 int main(){
    
-    int number1 {20};
-    int number2 {20};
+    int number1 {45};
+    int number2 {65};
 	
     std::cout << "number1 : " << number1 << std::endl;
     std::cout << "number2 : " << number2 << std::endl;
@@ -31,18 +31,17 @@ int main(){
     return 0;
 }
 /*
-final output: 
-number1 : 20
-number2 : 20
+number1 : 45
+number2 : 65
 
 Comparing variables
-number1 < number2 : false
+number1 < number2 : true
 number1 <= number2 : true
 number1 > number2 : false
-number1 >= number2 : true
-number1 == number2 : true
-number1 != number2 : false
+number1 >= number2 : false
+number1 == number2 : false
+number1 != number2 : true
 
 store comparison result and use it later
-20 == 20 : true
+45 == 65 : false
 */
