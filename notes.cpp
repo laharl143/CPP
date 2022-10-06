@@ -252,9 +252,42 @@ Output Formatting (please go to section 3.OperationsOnData/3.8OutputFormatting/m
 std::endl   //places a new line character on the output stream.
 \n          //like in JAVA, it creates a new line
 
-std::flush
+std::flush  //flushes the output buffer to its final destination.
 
-std::setw()
+std::setw() //Adjusts the field with for the item about to be printed. 
+
+Justify:
+std::right  //this is the default justify
+std::left  //this is used to justify the values to the left
+std::internal   //sign is left justified , data is right justified
+
+std::setfill('*') //fill empty spaces with your choice
+
+std::boolalpha   //control bool output format : true/false
+std::noboolalpha //control bool output format : 1/0 
+
+std::showpos   // show the +  sign for positive numbers
+std::noshowpos // hide the +  sign for positive numbers
+
+std::dec    //show it in decimal formal
+std::hex    //show it in hexadecimal formal
+std::oct    //show it in octal formal
+
+std::uppercase  //manipulates values to uppercase
+std::nouppercase    //manipulates values to no uppercase
+
+std::fixed      //show decimal places up to 6digits
+std::scientific //show value in in scientific notation
+
+std::setprecision(20) // the number of digits(including whole number and decimal) printed out for a floating point. Default is 6
+
+std::noshowpoint  //this is the default format
+std::showpoint    //this used to forcefully show the decimals except in int
+
+
+
+
+
 
 
 
