@@ -247,7 +247,11 @@ Logical Operators
 !a = NOT       //the opposite of the boolean
 
 //////////////////////////////////////////
-Output Formatting (please go to section 3.OperationsOnData/3.8OutputFormatting/main.cpp)
+Output Formatting 
+(please go to section ../3.OperationsOnData/3.8OutputFormatting/main.cpp)
+(online reference:) https://en.cppreference.com/w/cpp/io/manip
+
+you need to use "#include <iomanip>" library to activate most of these
 
 std::endl   //places a new line character on the output stream.
 \n          //like in JAVA, it creates a new line
@@ -284,7 +288,71 @@ std::setprecision(20) // the number of digits(including whole number and decimal
 std::noshowpoint  //this is the default format
 std::showpoint    //this used to forcefully show the decimals except in int
 
+//////////////////////////////////////////
+Numeric Limits  
 
+The range for short is from -32768 to 32767    
+The range for unsigned short is from 0 to 65535
+The range for int is from -2147483648 to 2147483647
+The range for unsigned int is from 0 to 4294967295
+The range for long is from -2147483648 to 2147483647
+The range for float is from 1.17549e-38 to 3.40282e+38
+The range(with lowest) for float is from -3.40282e+38 to 3.40282e+38
+The range(with lowest) for double is from -1.79769e+308 to 1.79769e+308
+The range(with lowest) for long double is from -1.18973e+4932 to 1.18973e+4932
+int is signed : 1
+int digits : 31
+
+
+//////////////////////////////////////////
+Math Functions     (please go to section ../3.OperationsOnData/3.10.MathFunctions/main.cpp)
+(online reference): https://en.cppreference.com/w/cpp/header/cmath
+you need to use "#include <cmath>" library to activate these
+
+double weight { 7.7 };
+
+
+std::floor(weight)
+    Weight rounded to floor is : 7
+std::ceil(weight)    
+    Weight rounded to ceil is : 8 
+
+#Absolute value:
+std::abs(weight)
+    Abs of weight is : 7.7
+
+double savings {-5000};
+std::abs(savings)
+    Abs of savings is : 5000
+
+std::exp(10);   //exp : f(x) = e ^ x , where e = 2.71828 .
+    The exponential of 10 is : 22026.5
+
+std::pow(3,4)
+    3 ^ 4 is : 81
+std::pow(9,3)
+    9^3 is : 729
+
+//log : reverse function of pow. if 2^3 = 8 , log 8 in base 2 = 3.  Log is like asking to which exponent should we elevate 2 to get eight ? Log, by default computes the log
+std::log(54.59)
+    Log ; to get 54.59, you would elevate e to the power of : 3.99985
+
+std::log10(10000)
+    To get 10000, you'd need to elevate 10 to the power of : 4
+
+std::sqrt(81)
+    The square root of 81 is : 9
+
+std::round(3.654)
+    3.654 rounded to : 4
+std::round(2.5)
+    2.5 is rounded to : 3
+std::round(2.4)
+    2.4 is rounded to : 2
+
+
+//////////////////////////////////////////
+Weird Integral Types
 
 
 
