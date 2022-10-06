@@ -100,10 +100,15 @@ Fractional numbers
 -float number1 {1.12345678901234567890f}; // Precision : 7   //f in the ending interprets it is a float
 -double number2 {1.12345678901234567890}; // Precision : 15  //double doesn't need any interpretation at the end
 -long double number3  {1.12345678901234567890L};             //L in the end is for the interpretation of long
-    
-sizeof float : 4
-sizeof double : 8
-sizeof long double : 16    
+
+sizeof Short variable : 2 bytes   
+sizeof Short Int : 2 bytes
+sizeof int : 4 bytes
+sizeof float : 4 bytes
+sizeof long int : 4 bytes
+sizeof double : 8 bytes
+sizeof Long long : 8 bytes
+sizeof long double : 16 bytes    
 
 //////////////////////////////////////////
 Boolean
