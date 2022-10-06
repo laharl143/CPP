@@ -162,4 +162,36 @@ Assignment
 final output: 
 var1 : 123
 var1 : 55
+
+
+////////////////////////////////////////////////////////////////////////////////////
+section 3: Operations On Data
+
+//////////////////////////////////////////
+Basic Operations
+Addition:
+int sum { number1 + number 2 };
+int other_sum = number1 + number2 + number3;
+
+Subtraction:
+int diff { number1 - number 2 };
+int other_diff = number1 - number2 - number3;
+
+Multiplication:
+int product { number1 * number 2 };
+int other_product = number1 * 2 * number3;
+
+Division:
+int quotient { number1 / number 2 };
+int other_quotient = number1 / 17 ;
+
+Modulus:
+//getting the remainder
+
+
+
+
+
+
+
 */
