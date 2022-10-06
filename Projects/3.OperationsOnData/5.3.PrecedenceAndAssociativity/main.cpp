@@ -18,7 +18,7 @@ int main(){
     result = a/b*c +d - e + f;  //   16 + 9 - 3 + 2
     std::cout << "result : " << result << std::endl;
 
-    result = (a + b) * c -d/e -f + g; // 72-3-2+5
+    result = (a + b) * c -d/e -f + g; // 72-3-2+5           //parenthesis is always the priority
     std::cout << "result () : " << result << std::endl;
  /**/  
     return 0;

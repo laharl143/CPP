@@ -190,6 +190,52 @@ Modulus:
 
 //////////////////////////////////////////
 Precedence and Associativity
+-as much as possible use () in your operations to be specific. dont rely too much on the precedence table
+
+
+//////////////////////////////////////////
+Increment and Decrement
+
+!!Prefix and postfix operators can only increment by one
+
+Increment:
+int value { 5 };   //5
+value = value + 1; //6
+
+Postfix Increment:
+value = 5;  //5
+std::cout << "The value is (prefix++) : " << ++value << std::endl; // 6
+
+Decrement:
+int value { 5 };   //5
+value = value - 1; //4
+
+Postfix Decrement:
+value = 5;  //5
+--value;
+std::cout << "The value is (prefix--) : " << --value << std::endl; // 6
+
+//////////////////////////////////////////
+Compound Assignment Operators      //this is used to operate a certain value to an int
+
+int value {45};
+
+value += 5; //50
+value -=5;  //45
+value *=2;  //90
+value /= 3; //30
+value %= 11; //8
+
+//////////////////////////////////////////
+Relational Operators
+
+
+
+
+
+
+
+
 
 
 
