@@ -242,9 +242,19 @@ int number2 {65};
 //////////////////////////////////////////
 Logical Operators
 
+|| = OR        //the condition is true if atleast one input is true
+&& = AND       //the condition is ONLY true if ALL of the input is true
+!a = NOT       //the opposite of the boolean
 
+//////////////////////////////////////////
+Output Formatting (please go to section 3.OperationsOnData/3.8OutputFormatting/main.cpp)
 
+std::endl   //places a new line character on the output stream.
+\n          //like in JAVA, it creates a new line
 
+std::flush
+
+std::setw()
 
 
 

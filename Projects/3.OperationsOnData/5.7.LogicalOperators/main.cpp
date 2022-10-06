@@ -79,5 +79,39 @@ int main(){
 }
 /*
 final output: 
+a : true 
+b : false
+c : true
 
+Basic AND operations
+ a && b : false
+ a && c : true
+ a && b && c :false
+
+Basic OR operations
+ a || b : true
+ a || c : true
+ a ||b || c :true
+
+Basic NOT operations
+!a : false
+!b : true
+!c : false
+
+Combining logical operators
+!(a &&b) || c : true
+
+Relational and logic operations on integers
+d : 45
+e : 20
+f : 11
+
+(d > e) && (d > f) : true
+(d==e) || (e <= f ) : false
+(d < e) || (d > f) : true
+(f > e) || (d < f) : false
+(d > f) && (f <= d) : true
+(d > e) && (d <= f) : false
+(! a) && (d == e) : false
+(! a) && (d == e) : false
 */
